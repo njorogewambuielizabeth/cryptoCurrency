@@ -103,6 +103,12 @@ header button{
     gap: 11%;
 }
   */
+  #im{
+    margin-left: 35%;
+  }
+  .swap{
+    margin-top: -15em;
+  }
   .sec3{
     display: flex;
     list-style: none;
@@ -129,46 +135,68 @@ header button{
     grid-template-columns: repeat(5,1fr); 
     color: white;
 }
-.top1 img{
+
+.table img{
     width: 30%;
 }
 .top1 span{
-    color: green;
+    color: greenyellow;
 }
 .top2{
     display: grid;
     grid-template-columns: repeat(5,1fr); 
     color: white;
 }
+.top2 span{
+    color: red;
+}
+
 .top3{
     display: grid;
     grid-template-columns: repeat(5,1fr); 
     color: white;
+}
+.top3 span{
+    color: greenyellow;
 }
 .top4{
     display: grid;
     grid-template-columns: repeat(5,1fr); 
     color: white;
 }
+.top4 span{
+    color: greenyellow;
+}
 .top5{
     display: grid;
     grid-template-columns: repeat(5,1fr); 
     color: white;
+}
+.top5 span{
+    color: red;
 }
 .top6{
     display: grid;
     grid-template-columns: repeat(5,1fr); 
     color: white;
 }
+.top6 span{
+    color: greenyellow;
+}
 .top7{
     display: grid;
     grid-template-columns: repeat(5,1fr); 
     color: white;
 }
+.top7 span{
+    color: red;
+}
 .boxes{
     color: white;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(2,1fr);
+    margin-top: -30%;
+    margin-left: 30%;
 }
 .words button{
     background-color: greenyellow;
@@ -176,4 +204,88 @@ header button{
     padding-bottom: 8px;
     padding-left: 12px;
     padding-right: 12px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4,4fr);
+    color: white;
+}
+.final{
+    color: white;
+    margin-left: 50%;
+    margin-top: -25em;
+}
+.final .clarity{
+    /* border: solid 2px grey;
+  padding-left: 5%;
+    width: 20%;
+    height: 20%;
+    border-radius: 12px; */
+}
+.final .confidence{
+    /* border: solid 2px grey;
+    padding-left: 5%;
+      width: 20%;
+      height: 20%;
+      border-radius: 12px;  */
+}
+.final .community{
+    /* border: solid 2px grey;
+    padding-left: 5%;
+      width: 20%;
+      height: 20%;
+      border-radius: 12px;    */
+}
+.layer{
+    color: white;
+    margin-left: 10%;
+    margin-top: 20%;
+
+    
+}
+.layer #pages{
+    margin-left: 15%;
+    margin-top: -18em;
+    height: 100%;
+    width: 100%;
+}
+.layer #smart{
+    margin-bottom: 6%;
+}
+.layer #smart span{
+    color: yellowgreen;
+}
+.layer #smart button{
+    background-color: greenyellow;
+}
+ .box-1{
+    border: solid 2px grey;
+    padding-left: 5%;
+      width: 10%;
+      height: 120%;
+      border-radius: 12px; 
+      color: white;  
+      margin-left: 10%;
+      margin-bottom: 5%;
+}
+ .box-3{
+    border: solid 2px grey;
+    padding-left: 5%;
+      width: 10%;
+      height: 120%;
+      border-radius: 12px;
+      color: white; 
+      margin-left: 10%;
+
+}
+.boxes .box-mid{
+    border: solid 2px grey;
+    padding-left: 5%;
+      width: 50%;
+      height: 120%;
+      border-radius: 12px;   
+}
+.circula-image img{
+    width: 200%;
+    height: 007px;
 }
