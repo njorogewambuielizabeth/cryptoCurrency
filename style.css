@@ -1,12 +1,9 @@
-/* .nvbar{
-    display: flex;
-    margin-left: 50%;
-} */
+
 body{
   background-color: black;
 }
 header .navbar {
-    /* font-size: 2rem; */
+  
     margin-left: 35%;
     color: #666;
     display: flex;
